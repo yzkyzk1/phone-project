@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone project</title>
+    <!-- links for google and font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title-front title"><h1>Click on the phone to change the background image</h1></div>
+<div class="title-back title ">
+<h1>Click on the phone to change the color</h1>
+</div>
+<button class="flip">FLIP PHONE             <i class="fa-solid fa-repeat"></i></button>
+<div class="main">
+  <div class="side-big side"></div>
+  <div class="side-small side"></div>
+  <div class="outer">
+    <div class="circle"><div class="middle-circle"></div></div>
+  <div class="circle"><div class="middle-circle"></div></div>
+  <div class="circle"><div class="middle-circle"></div></div>
+  </div>
+  <div class="small-circle"></div>
+  <h5>SAMSUNG</h5>
+  
+</div>
+
+<div class="main-front">
+  
+  <div class="side-big side-front"></div>
+  <div class="side-small side-front"></div>
+  <p><i class="fa-solid fa-lock icon"></i></p>
+  <div class="time-main">
+    
+    <h3 id="time"></h3>
+    <p id="date"></p>
+  </div>
+  <i class="fa-solid fa-fingerprint finger"></i>
+</div>
+<button class="reset none">Reset</button>
+<div class="main-input none">
+  <h3 class="rgb-title">Enter an RGB value:</h3>
+<input type="text" placeholder="R" class="input" id="r"/>
+<input type="text" placeholder="G" class="input" id="g"/>
+<input type="text" placeholder="B" class="input" id="b"/>
+  <button class="change">Change</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
